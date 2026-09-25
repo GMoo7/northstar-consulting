@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gmoo7.github.io/northstar-consulting/sitemap.xml
