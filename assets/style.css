@@ -1,3 +1,6 @@
+@font-face{font-family:"Bricolage Grotesque";src:url(fonts/bricolage-grotesque-latin-wght-normal.woff2) format("woff2");font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-wght-normal.woff2) format("woff2");font-weight:200 900;font-style:normal;font-display:swap}
+@font-face{font-family:"Source Serif 4";src:url(fonts/source-serif-4-latin-wght-italic.woff2) format("woff2");font-weight:200 900;font-style:italic;font-display:swap}
 :root{
   --midnight:#16243B;--midnight-2:#22344F;--glacier:#F5F7F9;--frost:#E3EAF1;
   --brass:#A8844A;--brass-soft:#EFE4D0;--slate:#5B6878;--ink:#1D2530;
@@ -182,3 +185,10 @@ footer a{text-decoration:none}footer a:hover{color:#fff}
 footer .logo{color:#fff;margin-bottom:14px}
 footer .base{border-top:1px solid #2B3D5A;margin-top:48px;padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.9rem}
 @media (max-width:760px){footer .cols{grid-template-columns:1fr 1fr}}
+.demo-bar{background:#0E1929;color:#C3CEDB;font-family:var(--display);font-size:.88rem;padding:8px 0}
+.demo-bar .wrap{display:flex;justify-content:space-between;gap:8px 20px;flex-wrap:wrap}
+.demo-bar b{color:#fff}.demo-bar a{color:var(--brass);font-weight:600}
+.trust .note{font-size:.8rem;border:1px solid #3A4D6C;border-radius:999px;padding:2px 10px}
+footer .base a{color:#fff}
+.short{display:none}@media (max-width:600px){.long{display:none}.short{display:inline}.demo-bar{flex-wrap:nowrap;justify-content:space-between;text-align:left;font-size:.8rem}}
+@media (prefers-reduced-motion:reduce){.chart .path{stroke-dashoffset:0}}
